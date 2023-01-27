@@ -1,4 +1,4 @@
-# html_css_practice_2
+# html_css_javascript_practice_2
 【概要】
 HTML、CSSの練習で作成したサイトの枠組み
 【注意事項】
