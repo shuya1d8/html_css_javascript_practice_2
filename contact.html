@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>お問い合わせ|謎のサイト</title>
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+        <link rel="stylesheet" href="css/base.css">
+
+    </head>
+
+    <body>
+
+        <header>
+            
+            <h1>謎のサイト</h1>
+            <form action="contact.html" method="get" autocomplete="off">
+                <div class="search">
+                    <input type="search" name="search" placeholder="キーワードを入力">
+                    <button type="submit">検索</button>
+                </div>
+            </form>
+            <nav class="global_navi">
+                <ul>
+                    <li><a href="site.html">HOME</a></li>
+                    <li><a href="profile_list.html">自己紹介一覧</a></li>
+                    <li><a href="time.html">現在時刻</a></li>
+                    <li><a href="access.html">アクセス</a></li>
+                    <li class="current"><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+
+        <div class="wrapper">
+            <div class="main">
+                <div class="breadcrumb">
+                    <ol>
+                        <li><a href="site.html">HOME</a></li>
+                        <li>お問い合わせ</li>
+                    </ol>
+                </div>
+                <article>
+                    <section>
+                        <h2>お問い合わせフォーム</h2>
+                        <form action="#" method="post" autocomplete="off" class="entry">
+                            <dl>
+                                <dt>お名前 <span class="must">※</span></dt>
+                                <dd><input type="text" name="name" id="name" required></dd>
+                                <dt>メールアドレス <span class="must">※</span></dt>
+                                <dd><input type="email" name="email" id="email" required></dd>
+                                <dt>電話番号</dt>
+                                <dd><input type="tel" name="tel" id="tel"></dd>
+                                <dt>ご自身のパスワード</dt>
+                                <dd><input type="password" name="passcode" id="passcode"></dd>
+                                <dt>仮セレクトボックス</dt>
+                                <dd>
+                                    <select name="select" id="select">
+                                        <option value="">選択してください</option>
+                                        <option value="1">ひゃあ</option>
+                                        <option value="2">どわっ</option>
+                                        <option value="3">ですわ</option>
+                                    </select>
+                                </dd>
+                                <dt>（複数選択可）</dt>
+                                <dd>
+                                    <label  class="checkbox">
+                                        <input type="checkbox" name="checkbox" id="checkbox1" value="1">
+                                        hohoho
+                                    </label>
+                                    <label class="checkbox">
+                                        <input type="checkbox" name="checkbox" id="checkbox2" value="2">
+                                        hahaha
+                                    </label>
+                                    <label class="checkbox">
+                                        <input type="checkbox" name="checkbox" id="checkbox3" value="3">
+                                        hehehe
+                                    </label>
+                                    <label class="checkbox">
+                                        <input type="checkbox" name="checkbox" id="checkbox4" value="4">
+                                        hihihi
+                                    </label>
+                                    <label class="checkbox">
+                                        <input type="checkbox" name="checkbox" id="checkbox5" value="5">
+                                        huhuhu
+                                    </label>
+                                </dd>
+                                <dt>仮ラジオボタン</dt>
+                                <dd>
+                                    <label>
+                                        <input type="radio" name="radio" id="radio1" value="">
+                                        わからない
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="radio" id="radio2" value="1">
+                                            YES
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="radio" id="radio3" value="2">
+                                        NO
+                                    </label>
+                                </dd>
+                                <dt>その他・ご意見</dt>
+                                <dd><textarea name="detail" id="detail"></textarea></dd>
+                            </dl>
+                            <p class="button_p"><button type="submit" class="button_submit">送信する</button></p>
+                        </form>
+                    </section>
+                </article>
+            </div>
+            <aside class="sidebar">
+                <section class="side_banner">
+                    <h2>関連リンク</h2>
+                    <ul>
+                        <li><a href="https://school.o-hara.ac.jp/nagano/" target="_blank"><img src="img/thumbnail_school_building_campus.jpg" alt="大原学園長野校HP"></a></li>
+                        <li><a href="https://twitter.com/ohara_nagano" target="_blank"><img src="img/bird_aoitori_bluebird.png" alt="大原学園長野校twitter"></a></li>
+                    </ul>
+                </section>
+                <section class="side_contact">
+                    <h2>お問い合わせ</h2>
+                    <address>℡ 000-000-0000</address>
+                    <p>受付時間 9:30~15:00</p>
+                    <p><a href="contact.html" class="contact_button">お問い合わせフォーム</a></p>
+                </section>
+            </aside>
+        </div>
+
+
+        <footer>
+            <div class="footer_nav">
+                <ul>
+                    <li><a href="site.html">HOME</a></li>
+                    <li><a href="profile_list.html">自己紹介一覧</a></li>
+                    <li><a href="time.html">現在時刻</a></li>
+                    <li><a href="access.html">アクセス</a></li>
+                    <li><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+            </div>
+            <small>
+                &copy;おおたん事務所
+            </small>
+
+        </footer>
+    </body>
+</html>

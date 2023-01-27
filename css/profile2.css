@@ -1,0 +1,127 @@
+@import url(sanitize.css);
+@import url('https://fonts.googleapis.com/css?family=Sriracha');
+
+
+body {
+    background-color: beige;
+    font-family: serif;
+    font-size: 23px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 20px;
+}
+
+header {
+    text-align: center;
+}
+
+.section_1 {
+    border-bottom: 1px dashed black;
+}
+
+img {
+    max-width: 35%;
+    float: left;
+    margin-left: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th,td {
+    border: 3px solid black;
+    padding: 10px;
+}
+
+th {
+    width: 200px;
+    background-color: rgb(188, 188, 188);
+}
+
+td {
+    width: 300px;
+    text-align: center;
+    background-color: rgb(222, 222, 222);
+    padding-left: 25px;
+}
+
+/* .like {
+    font-size: 20px;
+} */
+
+.section_2 {
+    padding-bottom: 50px;
+    border-bottom: 1px dashed black;
+}
+
+.section_2 h2 {
+    text-align: center;
+}
+
+.content_1 {
+    margin: 5px 0 60px 0;
+    padding: 0 5px;
+    width: 50%;
+   text-align: center;
+   border-right: 1px solid gray;
+   float: left;
+}
+
+.content_2 {
+    display: inline-block;
+    margin: 5px 0 60px 0;
+    padding: 0 5px;
+    width: 50%;
+    text-align: center;
+}
+
+.section_3 h2 {
+    clear: both;
+    text-align: center;
+}
+
+.section_3 h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.section_3 .nothing {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.section_3 p {
+    margin: 0 60px 50px;
+    font-size: 10px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    font-size: 10px;
+    border-top: 1px solid black;
+    padding: 10px;
+}
+
+
+
+
+@media only screen and (max-width:720px) {
+    header {
+        font-size: 45%;
+    }
+
+
+    .container {
+        font-size: 50%;
+    }
+
+    .section_3 h3 {
+        font-size: 50%;
+    }
+
+
+}

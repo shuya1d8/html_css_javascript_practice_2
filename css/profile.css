@@ -1,0 +1,95 @@
+body {
+    /* background-color: #cff; */
+    font-size: 20px;
+    background-image: url('../img/bg_network_dennou_sekai.jpg');
+    background-size: cover;
+    /* background-repeat: repeat-y; */
+    background-attachment: fixed;
+}
+
+header h1 {
+    font-family: serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px auto 10px;
+    padding: 10px;
+    background-color: #ffccff;
+    border-top: 3px  solid white;
+    border-bottom: 3px solid white;
+}
+
+.content {
+    background-color: #c0c0c0;
+    margin: 30px auto;
+    border: 2px solid rgb(255, 255, 255);
+    max-width: 800px;
+    text-align: center;
+}
+
+footer {
+    color: rgb(248, 248, 248);
+    background-color: rgba(0, 0, 0, .5);
+    text-align: center;
+    font-size: 60%;
+    padding: 3px;
+}
+
+ol {
+    list-style: none;
+    width: 50%;
+    margin: 0 auto;
+    padding-right: 40px;
+}
+
+li {
+    margin: 0;
+    padding: 3px;
+}
+
+.li_1 {
+    border-bottom: 2px solid black;
+    margin-top: 5px;
+}
+
+.li_2 {
+    background-color: white;
+    font-size: 80%;
+}
+
+.click {
+    text-decoration: none;
+}
+
+.click:hover {
+    opacity: .5;
+}
+
+hr {
+    border-width: 2px;
+    border-color: white;
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+.control {
+    margin-bottom: .5em;
+}
+
+input {
+    padding: 5px;
+}
+
+
+
+
+
+
+@media only screen and (max-width:800px) {
+    .content {
+        margin: 30px 20px;
+    }
+}
